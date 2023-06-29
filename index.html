@@ -65,8 +65,19 @@
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <button type="submit" class="btn btn-secondary">Cancel</button>
-                                    <button type="submit" class="btn btn-primary" class="row mb-3">Search</button>
+                                    <lable for="campsiteType" class="col-sm-6 col-form-label">Campsite Type</lable>
+                                    <div class="col-2 btn-group" role="group" aria-lable="Basic radio toggle button group">
+                                        <input type="radio" class="btn-check" name="btnradio" id="siteTent" autocomplete="on" checke>
+                                        <label class="btn btn-success text-white" for="siteTent">Tent</label>
+                                        <input type="radio" class="btn-check" name="btnradio" id="siteRV" autocomplete="on" checked>
+                                        <label class="btn btn-primary text-white" for="siteRV">RV</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-primary" class="row mb-3">Search</button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
